@@ -1,42 +1,36 @@
 body{
     font-family: "Montserrat";
+    text-align: center;
 }
 
-#title{
-    background-color: #ff4c68;
-    color:#fff ;
-}
-
-/* heading  */
-h1{
+h1,h2,h3,h4,h5,h6 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;  
-    line-height: 1.5; 
-    font-weight: 900;
-}
-
-h2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;  
-    line-height: 1.5;
     font-weight: 900; 
-}
-
-
-h3{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
 }
 
 p{
     color: #8f8f8f;
 }
 
-.container-fluid{
-    padding: 2% 6% 5%;
-}
-/* heading end  */
 
+
+/* heading  */
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;  
+    line-height: 1.5; 
+    font-weight: 900;
+}
+
+.section-heading{
+    font-size: 3rem;  
+    line-height: 1.5;
+}
+
+/* container  */
+.container-fluid{
+    padding: 7% 15%;
+}
 
 
 /* navbar */
@@ -75,28 +69,35 @@ p{
     margin: 5% 3% 5% 0;
 }
 
+/* title section  */
+#title{
+    background-color: #ff4c68;
+    color:#fff ;
+    text-align: left;
+}
+
 .tittle-image{
     width: 18.75%;
   transform: rotate(25deg);
   position: absolute;
   height: 97.5%;
   left:60%;
-
 }
 
+#title .container-fluid{
+    padding: 2% 6% 5%;
+}
 
 
 /* feature section */
 
 #features{
-    padding: 7% 15%;
     position: relative;
     background-color: #fff;
     z-index: 7;
 }
 
 .features-box{
-    text-align: center;
     padding: 5%;
 }
 
@@ -109,12 +110,14 @@ p{
     color: #ff4c68;
 }
 
-
+.feature-title{
+    font-weight: 900;
+    line-height: 1.5rem;
+}
 
 /* Testimonial section  */
 
 #testimonials{
-    text-align: center;
     background-color: #ef8172;
     color: #fff;
 }
@@ -125,13 +128,10 @@ p{
     margin: 20px;
 }
 
-.carousel-item{
-    padding: 7% 15%;
-}
+
 
 #press{
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -140,42 +140,39 @@ p{
     margin: 20px 20px 50px;
 }
 
+.testimonial-text{
+    font-size: 3rem;  
+    line-height: 1.5;
+    
+}
 
 /* pricing section  */
 
 #pricing{
     padding: 100px;
-    text-align: center;
 }
 
 .pricing-column{
     padding: 3% 2%;
 }
 
-
+.price-text{
+    font-size: 3rem;  
+    line-height: 1.5;
+}
 
 
 /* call to action */
 #cta{
     background-color: #ff4c68;
     color: #fff;
-    padding: 7% 15%;
-    text-align: center;
     
 }
-.cta-heading{
-    font-size: 3.5rem;
-    font-family: 'Montserrat', sans-serif; 
-    line-height: 1.5;
-    font-weight: 900;
-}
+
 
 
 /* footer section  */
-#footer{
-    padding: 7% 15%;
-    text-align: center;
-}
+
 
 .social-icon{
     margin: 20px 10px;
